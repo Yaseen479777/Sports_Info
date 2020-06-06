@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Outdoor sports</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<section class="container">
+	<section class="headnav">
+		<section class="logo"><a href="home.html"><img src="images/logo.png" alt="logo"></a></section>
+		<section class="nav">
+		<section class="subnav">
+		<ul>
+		<li><a href="home.html">HOME</a></li>
+		<li class="active"><a href="#">SPORTS<ul>
+		<li><a href="indoor.html">INDOOR</a></li>
+		<li><a href="outdoor.html">OUTDOOR</a></li>
+		</ul></a></li>
+		<li><a href="news.html">NEWS</a></li>
+		<li><a href="events.html">EVENTS</a></li>
+		<li><a href="about us.html">ABOUT US</a></li>
+		<li><a href="contact us.html">CONTACT US</a></li>
+	</ul>
+			</section>
+		<section class="search">
+		<input type="text" placeholder=" Search sport" id="search" onChange="srch()">	
+		</section>
+		</section>
+	</section>
+	<section class="banner"><img src="images/amfootball.png" alt="sports banner"></section>
+	<section class="contant">
+		<section class="first"><h1 class="heading">OUTDOOR SPORTS</h1></section>
+	<section class="main">
+		
+	<section class="m1"><section class="upper1"><p><b>SOCCER</b></p></section>
+	<section class="lower1"><a href="FOOTBALL.html"><img src="images/soccer.jpg" alt="judu"></a></section>
+	</section>
+	<section class="m2"><section class="upper2"><p><b>CRICKET</b></p></section>
+	<section class="lower2"><a href="CRICKET.html"><img src="images/cricket.jpg" alt="judu"></a></section>
+	</section>
+	<section class="m3"><section class="upper3"><p><b>SWIMMING</b></p></section>
+	<section class="lower3"><a href="SWIMMING.html"><img src="images/swimming.jpg" alt="judu"></a></section>
+	</section>
+	<section class="m4"><section class="upper4"><p><b>ATHLETICS</b></p></section>
+	<section class="lower4"><a href="ATHLETICS.html"><img src="images/athletic.jpg" alt="judu"></a></section>
+	</section>
+	<section class="m5"><section class="upper5"><p><b>MOTORCYCLE RACING</b></p></section>
+	<section class="lower5"><a href="MOTORCYCLE RACING.html"><img src="images/motorcycle.jpg" alt="judu"></a></section>
+	</section>
+	<section class="m6"><section class="upper6"><p><b>BADMINTON</b></p></section>
+	<section class="lower6"><a href="BADMINTON.html"><img src="images/badminton.jpg" alt="judu"></a></section>
+	</section>
+		
+	</section>
+	</section>
+		<section class="footer">
+		
+	<section class="other"><p>Copyrights<sup>&copy;</sup> Khi,PK All rights reserved.<br>
+		
+	<a href="contact us.html">CONTACT US</a> | <a href="guestbook.html">GUESTBOOK</a> | <a href="about us.html">ABOUT US</a></p>	
+	</section>	
+	</section>
+	</section>
+</body>
+</html>
+<script>
+function srch(){
+		
+		var search=document.getElementById('search').value;
+		
+		if(search=="soccer" || search=="football")
+			{
+				
+				window.location.assign("football.html");
+			}
+	
+		else if(search=="badminton" || search=="racket")
+			{
+				
+				window.location.assign("badminton.html");
+			}
+		else if(search=="snooker" || search=="billiard")
+			{
+				
+				window.location.assign("billiard.html");
+			}
+		else if(search=="vollyball")
+			{
+				
+				window.location.assign("volleyball.html");
+			}
+		else if(search=="racing" || search=="motorcycle racing")
+			{
+				
+				window.location.assign("motorcycle racing.html");
+			}
+		else if(search=="athletics" || search=="Athletics")
+			{
+				
+				window.location.assign("athletics.html");
+			}
+		else if(search=="Cricket" || search=="cricket")
+			{
+				
+				window.location.assign("cricket.html");
+			}
+		else if(search=="swimming" || search=="Swimming")
+			{
+				
+				window.location.assign("swimming.html");
+			}
+		else if(search=="judo" || search=="Judu")
+			{
+				
+				window.location.assign("judo.html");
+			}
+		else if(search=="table tennis" || search=="Table tennis")
+			{
+				
+				window.location.assign("table tennis.html");
+			}
+		else if(search=="chess" || search=="Chess")
+			{
+				
+				window.location.assign("chess.html");
+			}
+		else if(search=="Basketball" || search=="basketball")
+			{
+				
+				window.location.assign("basketball.html");
+			}
+		else{
+			alert("page not found");
+		}
+	
+	}
+</script>

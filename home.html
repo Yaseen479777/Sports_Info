@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<section class="container">
+	<section class="headnav">
+		<section class="logo"><a href="home.html"><img src="images/logo.png" alt="logo"></a></section>
+		<section class="nav">
+		<section class="subnav">
+		<ul>
+		<li class="active"><a href="home.html">HOME</a></li>
+		<li><a href="#">SPORTS<ul>
+		<li><a href="indoor.html">INDOOR</a></li>
+		<li><a href="outdoor.html">OUTDOOR</a></li>
+		</ul></a></li>
+		<li><a href="news.html">NEWS</a></li>
+		<li><a href="events.html">EVENTS</a></li>
+		<li><a href="about us.html">ABOUT US</a></li>
+		<li><a href="contact us.html">CONTACT US</a></li>
+	</ul>
+			</section>
+		<section class="search">
+		<input type="text" placeholder=" Search sport" id="search" onChange="srch()">	
+		</section>
+		
+		</section>
+	</section>
+	<section class="banner"><img src="images/banner2.jpg" alt="best american football team"></section>
+	<section class="contant">
+		<section class="text">
+		<h1>WHO WE ARE?</h1>
+		<p>Infocom is a multi national company that builds informative sites. i.e. CellInfo.com site gives all the information about cell phones, LibertyElectronics.com gives information about various electronics products and so on. Now the company has decided to develop a site sportsinfo.com where the user will get information related to sports. The developers in the company are currently working on many other projects because of which development of the sportsinfo.com is getting delayed. Hence the company wants you to develop the site for them.<br><a href="about us.html">DETAILS</a></p>
+	</section>
+	<section class="spname">	</section>
+	<section class="left"><h1>INDOOR SPORTS</h1><a href="indoor.html"><img src="images/abcd.jpg" alt="indoor"></a>
+		</section>
+	<section class="right"><h1>OUTDOOR SPORTS</h1><a href="outdoor.html"><img src="images/ftball.jpg" alt="outdoor"></a>
+		</section>
+
+	</section>
+		<section class="footer">
+		
+	<section class="other"><p>
+		
+	<a href="contact us.html">CONTACT US</a> | <a href="guestbook.html">GUESTBOOK</a> | <a href="about us.html">ABOUT US</a><br>Copyrights<sup>&copy;</sup> Khi,PK All rights reserved.</p>	
+	</section>	
+	</section>
+	</section>
+</body>
+</html>
+<script>
+
+	function srch(){
+		
+		var search=document.getElementById('search').value;
+		
+		if(search=="soccer" || search=="football")
+			{
+				
+				window.location.assign("soccer.html");
+			}
+	
+		else if(search=="badminton" || search=="racket")
+			{
+				
+				window.location.assign("badminton.html");
+			}
+		else if(search=="snooker" || search=="billiard")
+			{
+				
+				window.location.assign("billiard.html");
+			}
+		else if(search=="vollyball")
+			{
+				
+				window.location.assign("volleyball.html");
+			}
+		else if(search=="racing" || search=="motorcycle racing")
+			{
+				
+				window.location.assign("motorcycle racing.html");
+			}
+		else if(search=="athletics" || search=="Athletics")
+			{
+				
+				window.location.assign("athletics.html");
+			}
+		else if(search=="Cricket" || search=="cricket")
+			{
+				
+				window.location.assign("cricket.html");
+			}
+		else if(search=="swimming" || search=="Swimming")
+			{
+				
+				window.location.assign("swimming.html");
+			}
+		else if(search=="judo" || search=="Judu")
+			{
+				
+				window.location.assign("judo.html");
+			}
+		else if(search=="table tennis" || search=="Table tennis")
+			{
+				
+				window.location.assign("table tennis.html");
+			}
+		else if(search=="chess" || search=="Chess")
+			{
+				
+				window.location.assign("chess.html");
+			}
+		else if(search=="Basketball" || search=="basketball")
+			{
+				
+				window.location.assign("basketball.html");
+			}
+		else{
+			alert("page not found");
+		}
+	
+	}
+
+</script>
